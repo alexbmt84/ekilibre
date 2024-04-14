@@ -26,6 +26,33 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes sway {
+  0%, 100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+.rotating {
+  animation: rotate 10s linear infinite;
+}
+
+.swaying {
+  display: inline-block;
+  animation: sway 3s ease-in-out infinite;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

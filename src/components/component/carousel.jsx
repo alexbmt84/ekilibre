@@ -3,7 +3,7 @@ import {Carousel, IconButton} from "@material-tailwind/react";
 export function CarouselCustomArrows() {
     return (
         <Carousel
-            className="rounded-xl w-[60%] mx-auto"
+            className="rounded-xl w-[100%] lg:w-[59%] mx-auto border-8 border-[#5DB3B6]"
             prevArrow={({handlePrev}) => (
                 <IconButton
                     variant="text"
