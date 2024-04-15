@@ -23,9 +23,6 @@
  - App Directory: https://nextjs.org/docs/app/building-your-application/optimizing/fonts
  - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
  **/
-import Link from "next/link"
-import {Input} from "@/components/ui/input"
-import {Button} from "@/components/ui/button"
 import {JSX, SVGProps} from "react"
 import Image from "next/image";
 import {BMICalculatorComponent, CarouselCustomArrows, NavbarSimple} from "@/app/provider";
@@ -33,9 +30,6 @@ import {BMICalculatorComponent, CarouselCustomArrows, NavbarSimple} from "@/app/
 export function Landing() {
     return (
         <div className="flex flex-col min-h-[100dvh]">
-            <header className="h-14 flex items-center z-10 bg-black">
-                <NavbarSimple/>
-            </header>
             <main className="flex-1 bg-black">
                 <section className="w-full pt-12 md:pt-24 lg:pt-32 xl:pt-40 bg-black">
                     <div
@@ -59,7 +53,7 @@ export function Landing() {
 
                     </div>
                 </section>
-                <section className="w-full mt-12 pt-12 md:pt-24 lg:pt-32 border-t border-[#5DB3B6] bg-black">
+                <section id="about" className="w-full mt-12 pt-12 md:pt-24 lg:pt-32 border-t border-[#5DB3B6] bg-black">
                     <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 mx-auto">
                         <div className="space-y-3">
                             <h2 className="text-3xl text-white font-bold tracking-tighter md:text-4xl/tight">DIPLÔMES</h2>
@@ -98,7 +92,7 @@ export function Landing() {
                     </div>
                     <Image src={"/wave1.webp"} alt={"wave"} width={600} height={600} className={"mt-20 mx-auto"}/>
                 </section>
-                <section className="w-full py-12 md:py-24 lg:py-32 border-t bg-black">
+                <section id={"activities"} className="w-full py-12 md:py-24 lg:py-32 border-t bg-black">
                     <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 mx-auto">
                         <div className="space-y-3">
                             <h2 className="text-3xl font-bold text-white tracking-tighter md:text-4xl/tight">
@@ -116,18 +110,6 @@ export function Landing() {
                     </div>
                 </section>
             </main>
-            <footer
-                className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-black border-[#5DB3B6]">
-                <p className="text-xs text-white">© 2024 Ekilibre84. Tous droits réservés.</p>
-                <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-                    <Link className="text-xs hover:underline text-white underline-offset-4" href="#">
-                        Terms of Service
-                    </Link>
-                    <Link className="text-xs hover:underline text-white underline-offset-4" href="#">
-                        Privacy
-                    </Link>
-                </nav>
-            </footer>
         </div>
     )
 }

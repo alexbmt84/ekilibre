@@ -10,7 +10,7 @@ export function CarouselCustomArrows() {
                     color="white"
                     size="lg"
                     onClick={handlePrev}
-                    className="!absolute top-2/4 left-4 -translate-y-2/4"
+                    className="!absolute top-2/4 left-4 -translate-y-2/4 bg-[#5DB3B6] hover:bg-[#5DB3B6]"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ export function CarouselCustomArrows() {
                     color="white"
                     size="lg"
                     onClick={handleNext}
-                    className="!absolute top-2/4 !right-4 -translate-y-2/4"
+                    className="!absolute top-2/4 !right-4 -translate-y-2/4 bg-[#5DB3B6] hover:bg-[#5DB3B6]"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

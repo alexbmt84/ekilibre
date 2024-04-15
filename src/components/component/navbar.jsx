@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
 
 import {
     Navbar,
@@ -18,9 +20,10 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <a href="#" className="flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
+                <Link href={"/"}
+                      className="flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
                     Accueil
-                </a>
+                </Link>
             </Typography>
             <Typography
                 as="li"
@@ -28,9 +31,9 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <a href="#" className="flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
+                <ScrollLink to="about" smooth={true} duration={500} className="cursor-pointer flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
                     À propos
-                </a>
+                </ScrollLink>
             </Typography>
             <Typography
                 as="li"
@@ -38,9 +41,9 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <a href="#" className="flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
+                <ScrollLink to="activities" smooth={true} duration={500} className="cursor-pointer flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
                     Les activités
-                </a>
+                </ScrollLink>
             </Typography>
             <Typography
                 as="li"
@@ -58,9 +61,10 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <a href="#" className="flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
+                <Link href={"/contact"}
+                      className="flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
                     Contact
-                </a>
+                </Link>
             </Typography>
         </ul>
     );
@@ -81,7 +85,8 @@ export function NavbarSimple() {
     }, []);
 
     return (
-        <Navbar className="mx-auto py-3 max-w-full my-auto rounded-t-none bg-black border-2 border-t-0 border-x-0 border-b-[#5DB3B6]">
+        <Navbar
+            className="mx-auto py-3 max-w-full my-auto rounded-t-none bg-black border-2 border-t-0 border-x-0 border-b-[#5DB3B6]">
             <div className="flex items-center justify-between text-blue-gray-900">
                 <Image src={"/logo.webp"} alt={"logo"} width={100} height={100} className={"-ml-5"}/>
                 <div className="hidden lg:block">
