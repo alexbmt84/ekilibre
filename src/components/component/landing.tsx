@@ -30,6 +30,9 @@ import {BMICalculatorComponent, CarouselCustomArrows, NavbarSimple} from "@/app/
 export function Landing() {
     return (
         <div className="flex flex-col min-h-[100dvh]">
+            <header className="h-14 flex items-center z-10 bg-black">
+                <NavbarSimple/>
+            </header>
             <main className="flex-1 bg-black">
                 <section className="w-full pt-12 md:pt-24 lg:pt-32 xl:pt-40 bg-black">
                     <div
@@ -46,10 +49,12 @@ export function Landing() {
                         </div>
 
                         <div className={"py-10"}>
-                            <Image src={"/image1.JPG"} alt={"image1"} width={700} height={700} className="rounded border-8 border-[#5DB3B6]"/>
+                            <Image src={"/image1.JPG"} alt={"image1"} width={700} height={700}
+                                   className="rounded border-8 border-[#5DB3B6]"/>
 
                         </div>
-                        <Image src={"/sun1.webp"} alt={"wave"} width={180} height={180} className={"rotating py-6 mx-auto"}/>
+                        <Image src={"/sun1.webp"} alt={"wave"} width={180} height={180}
+                               className={"rotating py-6 mx-auto"}/>
 
                     </div>
                 </section>
@@ -76,7 +81,8 @@ export function Landing() {
                                 BEES 1er degré FOOTBALL
                             </p>
                         </div>
-                        <Image src={"/tree.webp"} alt={"wave"} width={350} height={350} className={"swaying py-10 mx-auto"}/>
+                        <Image src={"/tree.webp"} alt={"wave"} width={350} height={350}
+                               className={"swaying py-10 mx-auto"}/>
                     </div>
                 </section>
                 <section className="w-full mt-10 py-20 bg-white dark:bg-gray-800">

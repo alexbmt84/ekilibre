@@ -19,11 +19,8 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body className={inter.className}>
-        <header className="h-14 flex items-center z-10 bg-black">
-            <NavbarSimple/>
-        </header>
-        {children}
-        <Footer />
+            {children}
+            <Footer/>
         </body>
         </html>
     );
