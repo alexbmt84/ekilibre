@@ -31,7 +31,11 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <ScrollLink to="about" smooth={true} duration={500} className="cursor-pointer flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
+                <ScrollLink href={"#about"}
+                            to={"about"}
+                            smooth={true}
+                            duration={500}
+                            className={"cursor-pointer flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold"}>
                     À propos
                 </ScrollLink>
             </Typography>
@@ -41,7 +45,11 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <ScrollLink to="activities" smooth={true} duration={500} className="cursor-pointer flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
+                <ScrollLink href={"#activities"}
+                            to={"activities"}
+                            smooth={true}
+                            duration={500}
+                            className={"cursor-pointer flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold"}>
                     Les activités
                 </ScrollLink>
             </Typography>
@@ -51,9 +59,10 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <a href="#" className="flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
+                <Link href={"#"}
+                      className={"flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold"}>
                     Description et tarifs
-                </a>
+                </Link>
             </Typography>
             <Typography
                 as="li"
@@ -62,7 +71,7 @@ function NavList() {
                 className="p-1 font-medium"
             >
                 <Link href={"/contact"}
-                      className="flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
+                      className={"flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold"}>
                     Contact
                 </Link>
             </Typography>
@@ -94,6 +103,7 @@ export function NavbarSimple() {
                 </div>
                 <IconButton
                     variant="text"
+                    aria-label={"Menu"}
                     className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
                     ripple={false}
                     onClick={() => setOpenNav(!openNav)}

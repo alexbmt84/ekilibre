@@ -11,6 +11,7 @@ export function CarouselCustomArrows() {
                     variant="text"
                     color="white"
                     size="lg"
+                    aria-label={"Previous"}
                     onClick={handlePrev}
                     className="!absolute top-2/4 left-4 -translate-y-2/4 bg-[#5DB3B6] hover:bg-[#5DB3B6]"
                 >
@@ -35,6 +36,7 @@ export function CarouselCustomArrows() {
                     variant="text"
                     color="white"
                     size="lg"
+                    aria-label={"Next"}
                     onClick={handleNext}
                     className="!absolute top-2/4 !right-4 -translate-y-2/4 bg-[#5DB3B6] hover:bg-[#5DB3B6]"
                 >
@@ -63,7 +65,7 @@ export function CarouselCustomArrows() {
             />
 
             <Image
-                src={"/img2.JPG"}
+                src={"/img2.webp"}
                 alt={"image2"}
                 className={"h-full w-full object-cover"}
             />
