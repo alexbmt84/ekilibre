@@ -1,4 +1,6 @@
 import {Carousel, IconButton} from "@material-tailwind/react";
+import Image from "next/image";
+import {Video} from "lucide-react";
 
 export function CarouselCustomArrows() {
     return (
@@ -53,23 +55,27 @@ export function CarouselCustomArrows() {
                 </IconButton>
             )}
         >
-            <video controls autoPlay={true} src={"/movie.MP4"} type="video/mp4"
-                   className="h-full w-full object-cover"/>
+            <Video controls
+                   autoPlay={true}
+                   src={"/movie.MP4"}
+                   type={"video/mp4"}
+                   className={"h-full w-full object-cover"}
+            />
 
-            <img
-                src="/img2.JPG"
-                alt="image 1"
-                className="h-full w-full object-cover"
+            <Image
+                src={"/img2.JPG"}
+                alt={"image2"}
+                className={"h-full w-full object-cover"}
             />
-            <img
+            <Image
                 src={"/sebao.webp"}
-                alt="image 2"
-                className="h-full w-full object-cover"
+                alt={"image2"}
+                className={"h-full w-full object-cover"}
             />
-            <img
-                src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
-                alt="image 3"
-                className="h-full w-full object-cover"
+            <Image
+                src={"https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"}
+                alt={"image3"}
+                className={"h-full w-full object-cover"}
             />
         </Carousel>
     );

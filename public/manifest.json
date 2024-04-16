@@ -1,0 +1,16 @@
+{
+  "name": "Coach Sportif | Ekilibre84",
+  "short_name": "Ekilibre84",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "description": "Ekilibre recouvre la pratique d'activités physiques, sportives et bien être qui contribuent à la santé physique, psychologique et sociale de l'individu. Sébastien Jacquemin, Coach sportif, maître nageur sur Malaucène, Bédoin, situé au pied du Mont Ventoux.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "28x28",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#5DB3B6"
+}
