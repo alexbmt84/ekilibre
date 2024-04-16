@@ -34,7 +34,7 @@ export function Landing() {
                 <NavbarSimple/>
             </header>
             <main className="flex-1 bg-black">
-                <section className="w-full pt-12 md:pt-24 lg:pt-32 xl:pt-40 bg-black">
+                <section className="w-full pt-12 md:pt-24 lg:pt-32 xl:pt-40 bg-black" id={"home"}>
                     <div
                         className="container flex flex-col items-center justify-center px-4 space-y-4 md:px-6 mx-auto">
                         <div className="space-y-2 text-center">

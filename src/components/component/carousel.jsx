@@ -62,22 +62,30 @@ export function CarouselCustomArrows() {
                    src="/movie.MP4"
                    type="video/mp4"
                    className="h-full w-full object-cover"
+                   width={700}
+                   height={700}
             />
 
             <Image
                 src={"/img2.webp"}
                 alt={"image2"}
                 className={"h-full w-full object-cover"}
+                width={700}
+                height={700}
             />
             <Image
                 src={"/sebao.webp"}
                 alt={"image2"}
                 className={"h-full w-full object-cover"}
+                width={700}
+                height={700}
             />
             <Image
-                src={"https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"}
+                src={"/sebao.webp"}
                 alt={"image3"}
                 className={"h-full w-full object-cover"}
+                width={700}
+                height={700}
             />
         </Carousel>
     );

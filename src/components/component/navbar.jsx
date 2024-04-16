@@ -12,6 +12,7 @@ import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
 import Image from "next/image";
 
 function NavList() {
+
     return (
         <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
             <Typography
@@ -20,10 +21,13 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <Link href={"/"}
+                <ScrollLink href={"#home"}
+                      to={"home"}
+                      smooth={true}
+                      duration={500}
                       className="flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold">
                     Accueil
-                </Link>
+                </ScrollLink>
             </Typography>
             <Typography
                 as="li"
@@ -95,7 +99,7 @@ export function NavbarSimple() {
 
     return (
         <Navbar
-            className="mx-auto py-3 max-w-full my-auto rounded-t-none bg-black border-2 border-t-0 border-x-0 border-b-[#5DB3B6]">
+            className="mx-auto py-3 max-w-full my-auto rounded-t-none bg-black border-2 border-t-0 border-x-0 border-b-[#5DB3B6] fixed top-0 z-10 w-full shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4">
             <div className="flex items-center justify-between text-blue-gray-900">
                 <Image src={"/logo.webp"} alt={"logo"} width={100} height={100} className={"-ml-5"}/>
                 <div className="hidden lg:block">
