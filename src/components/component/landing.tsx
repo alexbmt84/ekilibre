@@ -49,8 +49,14 @@ export function Landing() {
                         </div>
 
                         <div className={"py-10"}>
-                            <Image src={"/image1.webp"} alt={"image1"} width={700} height={700}
-                                   className="rounded border-8 border-[#5DB3B6]"/>
+                            <Image fetchPriority={"high"}
+                                   src={"/image1.webp"}
+                                   alt={"image1"}
+                                   width={700}
+                                   height={700}
+                                   className="rounded border-8 border-[#5DB3B6]"
+                                   priority={true}
+                            />
 
                         </div>
                         <Image src={"/sun1.webp"} alt={"wave"} width={180} height={180}

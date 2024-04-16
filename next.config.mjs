@@ -4,6 +4,9 @@ const nextConfig = {
     compiler: {
         styledComponents: true,
     },
+    images: {
+        minimumCacheTTL: 60
+    }
 }
 
 export default nextConfig;
