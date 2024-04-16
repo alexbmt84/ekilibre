@@ -30,9 +30,6 @@ import {BMICalculatorComponent, CarouselCustomArrows, NavbarSimple} from "@/app/
 export function Landing() {
     return (
         <div className="flex flex-col min-h-[100dvh]">
-            <header className="h-14 flex items-center z-10 bg-black">
-                <NavbarSimple/>
-            </header>
             <main className="flex-1 bg-black">
                 <section className="w-full pt-12 md:pt-24 lg:pt-32 xl:pt-40 bg-black" id={"home"}>
                     <div
