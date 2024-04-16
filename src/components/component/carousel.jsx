@@ -55,11 +55,11 @@ export function CarouselCustomArrows() {
                 </IconButton>
             )}
         >
-            <Video controls
+            <video controls
                    autoPlay={true}
-                   src={"/movie.MP4"}
-                   type={"video/mp4"}
-                   className={"h-full w-full object-cover"}
+                   src="/movie.MP4"
+                   type="video/mp4"
+                   className="h-full w-full object-cover"
             />
 
             <Image
