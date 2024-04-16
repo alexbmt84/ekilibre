@@ -50,10 +50,11 @@ export function Landing() {
 
                         <div className={"py-10"}>
                             <Image fetchPriority={"high"}
-                                   src={"/image1.webp"}
+                                   src={"/compressedImg1.webp"}
                                    alt={"image1"}
                                    width={700}
                                    height={700}
+                                   objectFit={""}
                                    className="rounded border-8 border-[#5DB3B6]"
                                    priority={true}
                             />
