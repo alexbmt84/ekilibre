@@ -1,3 +1,4 @@
+"use client"
 import emailjs from '@emailjs/browser';
 import {FormEvent, useRef} from "react";
 import {Label} from "@/components/ui/label"
