@@ -63,21 +63,13 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <Link href={"#"}
-                      className={"flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold"}>
-                    Description et tarifs
-                </Link>
-            </Typography>
-            <Typography
-                as="li"
-                variant="small"
-                color="blue-gray"
-                className="p-1 font-medium"
-            >
-                <Link href={"/contact"}
-                      className={"flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold"}>
+                <ScrollLink href={"#contact"}
+                            to={"contact"}
+                            smooth={true}
+                            duration={500}
+                            className={"cursor-pointer flex items-center hover:text-[#5DB3B6] transition-colors text-white font-bold"}>
                     Contact
-                </Link>
+                </ScrollLink>
             </Typography>
         </ul>
     );
@@ -120,7 +112,7 @@ export function NavbarSimple() {
                 </IconButton>
             </div>
             <Collapse open={openNav}>
-                <NavList/>
+                <NavList />
             </Collapse>
         </Navbar>
     );

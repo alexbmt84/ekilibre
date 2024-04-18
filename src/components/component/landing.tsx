@@ -25,9 +25,12 @@
  **/
 import {JSX, SVGProps} from "react"
 import Image from "next/image";
-import {BMICalculatorComponent, CarouselCustomArrows, NavbarSimple} from "@/app/provider";
+import {BMICalculatorComponent, CarouselCustomArrows, CardDefault, NavbarSimple} from "@/app/provider";
+import {data} from "@/app/activities";
+import {Contact} from "@/components/component/contact-form";
 
 export function Landing() {
+
     return (
         <div className="flex flex-col min-h-[100dvh]">
             <main className="flex-1 bg-black">
@@ -103,14 +106,38 @@ export function Landing() {
                     <Image src={"/wave1.webp"} alt={"wave"} width={600} height={600} className={"mt-20 mx-auto"}/>
                 </section>
                 <section id={"activities"} className="w-full py-12 md:py-24 lg:py-32 border-t bg-black">
-                    <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 mx-auto">
-                        <div className="space-y-3">
+                    <div
+                        className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 mx-auto w-full">
+                        <div className="space-y-3 w-full">
                             <h2 className="text-3xl font-bold text-white tracking-tighter md:text-4xl/tight">
                                 Les activités
                             </h2>
-                            <p className={"text-white"}>(En construction)</p>
+                            <div className={"flex flex-wrap items-center justify-center w-full gap-10"}>
+                                {data.map((product: {
+                                    id: number;
+                                    image: string;
+                                    title: string;
+                                    description: string;
+                                    button: string;
+                                    periods: Array<string>;
+                                    prices: Array<Array<Array<string>>> | Array<Array<string>>
+                                }) => (
+                                    <CardDefault key={product.id}
+                                                 cardImage={product.image}
+                                                 cardTitle={product.title}
+                                                 cardDescription={product.description}
+                                                 cardButton={product.button}
+                                                 cardPeriod={product.periods}
+                                                 cardPricesDomicile={product.prices[0][0]}
+                                                 cardPricesPool={product.prices[0][1]}
+                                    />
+                                ))}
+                            </div>
                         </div>
                     </div>
+                </section>
+                <section id={"contact"} className="w-full border-t bg-black">
+                        <Contact />
                 </section>
                 <section className="w-full py-12 md:py-24 lg:py-32 border-t bg-black border-[#5DB3B6]">
                     <div className="container grid items-center gap-10 px-4 text-center md:px-6 mx-auto">

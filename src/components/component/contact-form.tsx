@@ -68,7 +68,7 @@ export function Contact() {
     }
 
     return (
-        <div className="w-full py-12 mt-20 bg-black">
+        <div className="w-full pb-32 mt-20 bg-black">
             <form ref={form} onSubmit={sendEmail} className="container grid max-w-2xl px-4 md:px-6 gap-10 mx-auto">
                 <div className="space-y-2">
                     <h1 className="lg:mt-5 md:mt-0 text-white text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed text-center">
