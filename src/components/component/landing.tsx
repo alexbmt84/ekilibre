@@ -44,7 +44,7 @@ export function Landing() {
 
                         <div className="space-y-2 text-center">
 
-                            <h1 className="text-wave uppercase mt-20 mb-10 md:mb-5 md:mt-0 text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed">
+                            <h1 className="uppercase mt-20 mb-10 md:mb-5 md:mt-0 text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed">
                                 Ekilibre
                             </h1>
 
