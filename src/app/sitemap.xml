@@ -2,13 +2,7 @@
     <url>
         <loc>https://ekilibre84.fr</loc>
         <lastmod>2024-04-16T11:02:24.021Z</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>1</priority>
-    </url>
-    <url>
-        <loc>https://ekilibre84.fr/contact</loc>
-        <lastmod>2024-04-16T11:02:24.021Z</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>1</priority>
     </url>
 </urlset>

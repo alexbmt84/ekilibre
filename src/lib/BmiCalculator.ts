@@ -1,7 +1,7 @@
 class BMICalculator {
     calculateBMI(weightInKg: number, heightInCm: number): number | string {
         if (heightInCm <= 0 || weightInKg <= 0) {
-            return "Invalid input. Weight and height must be positive values.";
+            return "Saisie invalide. Veuillez entrer des valeurs positives";
         }
 
         let heightInMeters = heightInCm / 100;

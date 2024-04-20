@@ -1,6 +1,5 @@
 import {Carousel, IconButton} from "@material-tailwind/react";
 import Image from "next/image";
-import {Video} from "lucide-react";
 
 export function CarouselCustomArrows() {
     return (
@@ -60,7 +59,6 @@ export function CarouselCustomArrows() {
             <video controls
                    autoPlay={true}
                    src="/movie.MP4"
-                   type="video/mp4"
                    className="h-full w-full object-cover"
                    width={700}
                    height={700}

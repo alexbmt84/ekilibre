@@ -33,22 +33,36 @@ export function Landing() {
 
     return (
         <div className="flex flex-col min-h-[100dvh]">
-            <main className="flex-1 bg-black">
-                <section className="w-full pt-12 md:pt-24 lg:pt-32 xl:pt-40 bg-black" id={"home"}>
-                    <div
-                        className="container flex flex-col items-center justify-center px-4 space-y-4 md:px-6 mx-auto">
+
+            <main id={"main"}
+                  className="flex-1 bg-black">
+
+                <section id={"home"}
+                         className="w-full pt-12 md:pt-24 lg:pt-32 xl:pt-40 bg-black">
+
+                    <div className="container flex flex-col items-center justify-center px-4 space-y-4 md:px-6 mx-auto">
+
                         <div className="space-y-2 text-center">
-                            <h1 className="mt-20 mb-10 md:mt-0 text-white text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed">
-                                Sans plaisir, la pratique n&apos;est rien.
+
+                            <h1 className="uppercase mt-20 mb-5 md:mt-0 text-white text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed">
+                                Ekilibre
                             </h1>
-                            <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 mx-auto">
+
+                            <h2 className="max-w-[700px] mt-20 mb-10 md:mt-0 text-white text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed">
+                                Sans plaisir, la pratique n&apos;est rien.
+                            </h2>
+
+                            <h3 className="max-w-[700px] py-10 text-justify text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 mx-auto">
                                 Fort d&apos;une expérience de 22 ans dans l&apos;animation et l&apos;éducation sportive,
-                                Sébastien met
-                                sa passion, son enthousiasme et son énergie à votre service pour vous accompagner dans
-                                votre remise en forme et votre bien être, aussi bien physiquement que mentalement. </p>
+                                Sébastien met sa passion, son enthousiasme et son énergie à votre service pour vous
+                                accompagner dans
+                                votre remise en forme et votre bien être, aussi bien physiquement que mentalement.
+                            </h3>
+
                         </div>
 
                         <div className={"py-10"}>
+
                             <Image fetchPriority={"high"}
                                    src={"/compressedImg1.webp"}
                                    alt={"image1"}
@@ -60,64 +74,137 @@ export function Landing() {
                             />
 
                         </div>
-                        <Image src={"/sun1.webp"} alt={"wave"} width={180} height={180}
+
+                        <Image src={"/sun1.webp"}
+                               alt={"wave"}
+                               width={180}
+                               height={180}
                                className={"rotating py-6 mx-auto"}/>
 
                     </div>
+
                 </section>
-                <section id="about" className="w-full mt-12 pt-12 md:pt-24 lg:pt-32 border-t border-[#5DB3B6] bg-black">
+
+                <section id={"about"}
+                         className="w-full mt-12 pt-12 md:pt-24 border-t border-[#5DB3B6] bg-black">
+
                     <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 mx-auto">
+
                         <div className="space-y-3">
-                            <h2 className="text-3xl text-white font-bold tracking-tighter md:text-4xl/tight">DIPLÔMES</h2>
-                            <p className="mx-auto py-3 max-w-[600px] text-[#5DB3B6] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+
+                            <h2 className="pt-12 uppercase text-3xl text-white font-bold tracking-tighter md:text-5xl/tight">
+                                diplômes
+                            </h2>
+
+                            <h3 className="uppercase mx-auto py-5 max-w-[600px] text-[#5DB3B6] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                                 BPJEPS AAN
-                            </p>
+                            </h3>
                             <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                                Brevet Professionnel Education Populaire Activités Aquatiques et Natation
+                                Brevet Professionnel Jeunesse Éducation Populaire et du Sport - Activités Aquatiques et
+                                Natation
                             </p>
-                            <p className="mx-auto py-3 max-w-[600px] text-[#5DB3B6] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+
+                            <h3 className="uppercase mx-auto py-3 max-w-[600px] text-[#5DB3B6] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                                 BEESAPT - Spécialité Sport Santé / Pilates
-                            </p>
+                            </h3>
                             <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                                Brevet Etat Educateur Sportif Activités Physiques pour Tous
+                                Brevet d&apos;État d&apos;Éducateur Sportif en Activités Physiques pour Tous
                             </p>
-                            <p className="mx-auto py-3 max-w-[600px] text-[#5DB3B6] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                MAITRE PRATICIEN MASSAGES BIEN ÊTRE
-                            </p>
-                            <p className="mx-auto pt-3 max-w-[600px] text-[#5DB3B6] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                BEES 1er degré FOOTBALL
-                            </p>
+
+                            <h3 className="uppercase mx-auto py-3 max-w-[600px] text-[#5DB3B6] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                                Maître praticien massages bien être
+                            </h3>
+
+                            <h3 className="uppercase mx-auto pt-3 max-w-[600px] text-[#5DB3B6] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                                BEES 1er degré football
+                            </h3>
+
                         </div>
-                        <Image src={"/tree.webp"} alt={"wave"} width={350} height={350}
-                               className={"swaying py-10 mx-auto"}/>
+
+                        <Image src={"/tree.webp"}
+                               alt={"wave"}
+                               width={350}
+                               height={350}
+                               className={"swaying py-10 mx-auto"}
+                        />
+
                     </div>
+
                 </section>
-                <section className="w-full mt-10 py-20 bg-white dark:bg-gray-800">
+
+                <section id={"images"}
+                         className="w-full mt-10 py-20 bg-white dark:bg-gray-800">
+
                     <div className="container grid items-center gap-6 px-4 md:px-6 mx-auto">
+
                         <h2 className="text-3xl text-[#5DB3B6] font-bold tracking-tighter sm:text-5xl w-[100%] lg:w-[60%] text-center mx-auto mb-12">
                             ... À chacun son rythme ...
                         </h2>
-                        <h3 className="text-2xl text-black font-bold tracking-tighter sm:text-5xl w-[60%] text-center mx-auto mb-12">
+
+                        <h3 className="max-w-[720px] text-2xl text-black font-bold tracking-tighter sm:text-5xl  text-justify mx-auto mb-12">
                             Ekilibre recouvre la pratique d’activités physiques, sportives et bien être qui
                             contribuent à la santé physique, psychologique et sociale de l&apos;individu.
                         </h3>
+
                         <CarouselCustomArrows/>
+
                     </div>
-                    <Image src={"/wave1.webp"} alt={"wave"} width={600} height={600} className={"mt-20 mx-auto"}/>
+
+                    <Image src={"/wave1.webp"}
+                           alt={"wave"}
+                           width={600}
+                           height={600}
+                           className={"mt-20 mx-auto"}
+                    />
+
                 </section>
-                <section id={"activities"} className="w-full py-12 md:py-24 lg:py-32 border-t bg-black">
+
+                <section id={"activities"}
+                         className="w-full py-12 md:py-24 border-t bg-black">
+
                     <div
                         className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 mx-auto w-full">
+
                         <div className="space-y-3 w-full">
-                            <h2 className="text-3xl font-bold text-white tracking-tighter md:text-4xl/tight">
+
+                            <h2 className="pt-12 uppercase text-3xl font-bold text-white tracking-tighter md:text-5xl/tight mb-3">
                                 Les activités
                             </h2>
+
+                            <p className={"max-w-[700px] mx-auto pt-20 text-justify tracking-wide text-xl font-body text-white md:text-3xl/tight"}>
+                                Explorez un monde où l&apos;équilibre et le dynamisme rencontrent le bien-être et la
+                                performance avec les activités d&apos;<span
+                                className={"font-bold text-[#5DB3B6]"}>Ekilibre</span>.
+
+                            </p>
+                            <p className={"max-w-[700px] mx-auto text-justify tracking-wide text-xl font-body text-white md:text-3xl/tight"}>
+                                Que vous soyez situé à Malaucène, à Bédoin ou près du Mont Ventoux,
+                                <span className={"font-bold text-[#5DB3B6]"}> Sébastien Jacquemin</span>,
+                                votre coach sportif dédié, vous ouvre les portes d&apos;une expérience transformatrice.
+                            </p>
+                            <p className={"max-w-[700px] mx-auto text-justify tracking-wide text-xl font-body text-white md:text-3xl/tight"}>
+                                Des leçons de natation qui éveillent l&apos;aquaphobe au massage bien-être sculptant
+                                votre silhouette,
+                                chaque session est une invitation à redécouvrir votre potentiel.
+                            </p>
+                            <p className={"max-w-[700px] mx-auto text-justify tracking-wide text-xl font-body text-white md:text-3xl/tight"}>
+                                <span className={"font-bold text-[#5DB3B6]"}>Prêt/es </span>
+                                pour un coaching
+                                sportif personnalisé qui va au-delà des limites et
+                                une remise en forme qui résonne avec sérénité <span className={"font-bold text-[#5DB3B6]"}>?</span>
+                            </p>
+                            <p className={"max-w-[700px] mx-auto text-justify tracking-wide text-xl font-body text-white md:text-3xl/tight"}>
+                                Laissez <span className={"font-bold text-[#5DB3B6]"}>Ekilibre</span> être le catalyseur de votre voyage vers la meilleure version de
+                                vous-même —
+                                physiquement et spirituellement.</p>
+
                             <div className={"flex flex-wrap items-center justify-center w-full gap-10"}>
                                 {data.map((product: {
                                     id: number;
                                     image: string;
                                     title: string;
                                     description: string;
+                                    descriptionCard: string;
                                     button: string;
                                     periods: Array<string>;
                                     prices: Array<Array<Array<string>>> | Array<Array<string>>
@@ -126,6 +213,7 @@ export function Landing() {
                                                  cardImage={product.image}
                                                  cardTitle={product.title}
                                                  cardDescription={product.description}
+                                                 cardDescriptionBody={product.descriptionCard}
                                                  cardButton={product.button}
                                                  cardPeriod={product.periods}
                                                  cardPricesDomicile={product.prices[0][0]}
@@ -133,39 +221,33 @@ export function Landing() {
                                     />
                                 ))}
                             </div>
+
                         </div>
+
                     </div>
+
                 </section>
-                <section id={"contact"} className="w-full border-t bg-black">
-                        <Contact />
+
+                <section id={"contact"}
+                         className="w-full border-t bg-black">
+                    <Contact/>
                 </section>
-                <section className="w-full py-12 md:py-24 lg:py-32 border-t bg-black border-[#5DB3B6]">
+
+                <section id={"bmi"}
+                         className="w-full py-12 md:py-24 lg:py-32 border-t bg-black border-[#5DB3B6]">
+
                     <div className="container grid items-center gap-10 px-4 text-center md:px-6 mx-auto">
+
                         <div className="space-y-4">
                             <BMICalculatorComponent/>
                         </div>
-                    </div>
-                </section>
-            </main>
-        </div>
-    )
-}
 
-export function MountainIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
-        </svg>
+                    </div>
+
+                </section>
+
+            </main>
+
+        </div>
     )
 }
