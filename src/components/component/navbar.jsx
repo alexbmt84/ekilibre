@@ -201,15 +201,30 @@ export function NavbarSimple() {
                     "text-blue-gray-900"
                 }
             >
-
-                <Image src={"/logo.webp"}
-                       alt={"logo"}
-                       width={100}
-                       height={100}
-                       className={
-                            "-ml-5"
-                       }
-                />
+                <ScrollLink href={"#home"}
+                            to={"home"}
+                            smooth={true}
+                            duration={500}
+                            offset={-80}
+                            onClick={closeNav}
+                            className={
+                                "flex " +
+                                "items-center " +
+                                "hover:text-[#5DB3B6] " +
+                                "transition-colors " +
+                                "text-white " +
+                                "font-bold"
+                            }
+                >
+                    <Image src={"/logo.webp"}
+                           alt={"logo"}
+                           width={100}
+                           height={100}
+                           className={
+                               "-ml-5"
+                           }
+                    />
+                </ScrollLink>
 
                 <div
                     className={
@@ -240,17 +255,17 @@ export function NavbarSimple() {
                     {openNav ? (
                         <XMarkIcon strokeWidth={2}
                                    className={
-                                        "h-6 " +
-                                        "w-6 " +
-                                        "text-white"
+                                       "h-6 " +
+                                       "w-6 " +
+                                       "text-white"
                                    }
                         />
                     ) : (
                         <Bars3Icon strokeWidth={2}
                                    className={
-                                        "h-6 " +
-                                        "w-6 " +
-                                        "text-white"
+                                       "h-6 " +
+                                       "w-6 " +
+                                       "text-white"
                                    }
                         />
                     )}
