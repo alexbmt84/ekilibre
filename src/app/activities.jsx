@@ -39,7 +39,7 @@ export const data = [
         "description": "Massage bien être / Massage minceur / Massage femme enceinte",
         "image": "/group.webp",
         "button": "En savoir plus",
-        "descriptionCard": "Entrez dans le cercle restreint du bien-être avec les massages signature de Sébastien Jacquemin chez EkiLibre84. Ici, les massages minceur se transforment en art, et le massage bien-être se fait thérapeutique sous les mains expertes de votre maître masseur. À Malaucène, ou chez vous, les techniques raffinées de Sébastien favorisent une détente profonde et une remise en forme spirituelle. Chaque geste est une promesse de tranquillité, une évasion du quotidien et un pas vers l'harmonie.",
+        "descriptionCard": "Entrez dans le cercle restreint du bien-être avec les massages signature de Sébastien Jacquemin, fondateur d'Ekilibre 84. Ici, les massages minceur se transforment en art, et le massage bien-être se fait thérapeutique sous les mains expertes de votre maître masseur. À Malaucène, ou chez vous, les techniques raffinées de Sébastien favorisent une détente profonde et une remise en forme spirituelle. Chaque geste est une promesse de tranquillité, une évasion du quotidien et un pas vers l'harmonie.",
         "periods": ["Toute l'année"],
         "prices": [
             [[],[]],
@@ -52,7 +52,7 @@ export const data = [
         "description": "Coaching personnalisé",
         "image": "/image8.jpg",
         "button": "En savoir plus",
-        "descriptionCard": "Transformez votre vision du fitness avec un entraînement personnalisé à domicile signé Sébastien Jacquemin, le coach sportif qui redéfinit la préparation physique. Ekilibre, c’est votre sésame pour une remise en forme intégrale, alliant méthodes d'entraînement avant-gardistes et stratégies de coaching individualisé. Que ce soit pour une remise en forme personnelle, ou une session de préparation physique, Sébastien est le partenaire d'excellence pour sculpter votre corps et esprit. L'aventure commence ici, où chaque séance est une promesse de dépassement et d'équilibre.",
+        "descriptionCard": "Transformez votre vision du fitness avec un entraînement personnalisé à domicile signé Sébastien Jacquemin, le coach sportif qui redéfinit la préparation physique. Ekilibre, c’est votre sésame pour une remise en forme intégrale, alliant méthodes d'entraînement avant-gardistes et stratégies de coaching individualisé. Que ce soit pour une remise en forme personnelle, ou une session de préparation physique, Sébastien est le partenaire d'excellence pour sculpter votre corps et apaiser votre esprit. L'aventure commence ici, où chaque séance est une promesse de dépassement et d'équilibre.",
         "periods": ["Toute l'année"],
         "prices": [
             [[],[]],
