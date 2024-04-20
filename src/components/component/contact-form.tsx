@@ -88,7 +88,7 @@ export function Contact() {
                         Contact
                     </h2>
 
-                    <h3 className={"text-gray-500 dark:text-gray-400 text-center pt-5"}>
+                    <h3 className={"text-gray-500 dark:text-gray-400 text-center pt-5 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                         Laissez moi votre message et je reviendrai vers vous dès que possible.
                     </h3>
 
@@ -101,13 +101,13 @@ export function Contact() {
                         <div className={"space-y-2"}>
 
                             <Label htmlFor={"first-name"}
-                                   className={"text-white"}>
+                                   className={"text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                                 Prénom *
                             </Label>
 
                             <Input id={"first-name"}
                                    name={"first_name"}
-                                   className={"text-black"}
+                                   className={"text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}
                                    placeholder={"Votre prénom"}
                                    value={firstName}
                                    onChange={handleFirstNameChange}
@@ -119,13 +119,13 @@ export function Contact() {
                         <div className={"space-y-2"}>
 
                             <Label htmlFor={"last-name"}
-                                   className={"text-white"}>
+                                   className={"text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                                 Nom *
                             </Label>
 
                             <Input id={"last-name"}
                                    name={"last_name"}
-                                   className={"text-black"}
+                                   className={"text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}
                                    placeholder={"Votre nom"}
                                    value={lastName}
                                    onChange={handleLastNameChange}
@@ -139,13 +139,13 @@ export function Contact() {
                     <div className={"space-y-2"}>
 
                         <Label htmlFor={"email"}
-                               className={"text-white"}>
+                               className={"text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                             Email *
                         </Label>
 
                         <Input id={"email"}
                                name={"email"}
-                               className={"text-black"}
+                               className={"text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}
                                placeholder={"Votre email"}
                                type={"email"}
                                value={email}
@@ -158,13 +158,13 @@ export function Contact() {
                     <div className={"space-y-2"}>
 
                         <Label htmlFor={"subject"}
-                               className={"text-white"}>
+                               className={"text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                             Objet *
                         </Label>
 
                         <Input id={"subject"}
                                name={"subject"}
-                               className={"text-black"}
+                               className={"text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}
                                placeholder={"Objet du message"}
                                value={subject}
                                onChange={handleSubjectChange}
@@ -176,11 +176,11 @@ export function Contact() {
                     <div className={"space-y-2"}>
 
                         <Label htmlFor={"message"}
-                               className={"text-white"}>
+                               className={"text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                             Message *
                         </Label>
 
-                        <Textarea className={"min-h-[100px] text-black"}
+                        <Textarea className={"min-h-[100px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}
                                   name={"message"}
                                   id={"message"}
                                   placeholder={"Votre message"}

@@ -44,7 +44,7 @@ export function Landing() {
 
                         <div className="space-y-2 text-center">
 
-                            <h1 className="uppercase mt-20 mb-5 md:mt-0 text-white text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed">
+                            <h1 className="text-wave uppercase mt-20 mb-10 md:mb-5 md:mt-0 text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed">
                                 Ekilibre
                             </h1>
 
@@ -61,7 +61,7 @@ export function Landing() {
 
                         </div>
 
-                        <div className={"py-10"}>
+                        <div className={"py-5"}>
 
                             <Image fetchPriority={"high"}
                                    src={"/compressedImg1.webp"}
@@ -171,29 +171,29 @@ export function Landing() {
                                 Les activités
                             </h2>
 
-                            <p className={"max-w-[700px] mx-auto pt-20 text-justify tracking-wide text-xl font-body text-white md:text-3xl/tight"}>
+                            <p className={"max-w-[700px] text-gray-500 mx-auto pt-20 text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                                 Explorez un monde où l&apos;équilibre et le dynamisme rencontrent le bien-être et la
                                 performance avec les activités d&apos;<span
                                 className={"font-bold text-[#5DB3B6]"}>Ekilibre</span>.
 
                             </p>
-                            <p className={"max-w-[700px] mx-auto text-justify tracking-wide text-xl font-body text-white md:text-3xl/tight"}>
+                            <p className={"max-w-[700px] text-gray-500 mx-auto text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                                 Que vous soyez situé à Malaucène, à Bédoin ou près du Mont Ventoux,
                                 <span className={"font-bold text-[#5DB3B6]"}> Sébastien Jacquemin</span>,
                                 votre coach sportif dédié, vous ouvre les portes d&apos;une expérience transformatrice.
                             </p>
-                            <p className={"max-w-[700px] mx-auto text-justify tracking-wide text-xl font-body text-white md:text-3xl/tight"}>
+                            <p className={"max-w-[700px] text-gray-500 mx-auto text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                                 Des leçons de natation qui éveillent l&apos;aquaphobe au massage bien-être sculptant
                                 votre silhouette,
                                 chaque session est une invitation à redécouvrir votre potentiel.
                             </p>
-                            <p className={"max-w-[700px] mx-auto text-justify tracking-wide text-xl font-body text-white md:text-3xl/tight"}>
+                            <p className={"max-w-[700px] text-gray-500 mx-auto text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                                 <span className={"font-bold text-[#5DB3B6]"}>Prêt/es </span>
                                 pour un coaching
                                 sportif personnalisé qui va au-delà des limites et
                                 une remise en forme qui résonne avec sérénité <span className={"font-bold text-[#5DB3B6]"}>?</span>
                             </p>
-                            <p className={"max-w-[700px] mx-auto text-justify tracking-wide text-xl font-body text-white md:text-3xl/tight"}>
+                            <p className={"max-w-[700px] mx-auto text-gray-500 text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                                 Laissez <span className={"font-bold text-[#5DB3B6]"}>Ekilibre</span> être le catalyseur de votre voyage vers la meilleure version de
                                 vous-même —
                                 physiquement et spirituellement.</p>

@@ -64,6 +64,24 @@ body {
     animation: sway 3s ease-in-out infinite;
 }
 
+@keyframes waveAnimation {
+    0%, 100% { background-position: 0 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+.text-wave {
+    font-size: 5rem; /* Ajustez la taille selon le besoin */
+    /* Le gradient commence à gauche */
+    background: linear-gradient(90deg, #ffffff, #5DB3B6) no-repeat;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: waveAnimation 5s ease-in-out infinite;
+}
+
+
+
 @layer utilities {
     .text-balance {
         text-wrap: balance;
