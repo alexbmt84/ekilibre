@@ -55,7 +55,7 @@ export function CardDefault(props) {
                 </Typography>
 
                 <Typography variant={"paragraph"}
-                            className={"mb-3 text-lg"}>
+                            className={"mb-5 text-lg"}>
                     {props.cardDescription}
                 </Typography>
 

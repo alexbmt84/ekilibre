@@ -38,6 +38,7 @@ export function AccordionCustomIcon(props) {
     return (
         <>
             <Accordion
+                className={"mt-10 md:mt-0"}
                 open={open === 1}
                 icon={
                     <Icon
@@ -48,7 +49,7 @@ export function AccordionCustomIcon(props) {
             >
 
                 <AccordionHeader onClick={() => handleOpen(1)}>
-                    <h4 className={"text-black font-bold mt-5 md:mt-0"}>
+                    <h4 className={"text-black font-bold"}>
                         {props.accDescriptionHeader}
                     </h4>
                 </AccordionHeader>
