@@ -3,7 +3,7 @@ export const data = [
         "id": 1,
         "title": "Leçons de natation",
         "description": "Apprentissage de la natation / cours de perfectionnement / Aquaphobie",
-        "image": "/img/img2.webp",
+        "image": "/img/natationgroup.jpg",
         "button": "En savoir plus",
         "descriptionCard": "Plongez au cœur du Vaucluse avec Sébastien Jacquemin, votre maître nageur attitré et guide privilégié dans l'art de la natation. Ekilibre est le trait d'union entre vous et l'eau. Apprivoisez les vagues avec des leçons sur mesure, que vous cherchiez l'éveil aquatique pour vos enfants ou une session de perfectionnement pour adultes. Sébastien fait de la sécurité aquatique et de la conquête de l'aquaphobie son credo, en promettant une progression adaptée et exaltante. La promesse d'Ekilibre ? Une aisance aquatique, chez vous, ou à la piscine de Bédoin située au pied du Mont Ventoux.",
         "periods": ["De Juin à Septembre"],
@@ -22,7 +22,7 @@ export const data = [
         "id": 2,
         "title": "Aquagym",
         "description": "Cours d'aquagym",
-        "image": "/img/aquagym.webp",
+        "image": "/img/aquagymgroup.jpg",
         "button": "En savoir plus",
         "descriptionCard": "Élancez-vous dans une aventure revitalisante avec les sessions d'Aquagym Ekilibre, orchestrées par Sébastien Jacquemin. En plein cœur de Bédoin ou à domicile, ces cours aquatiques sont une oasis de fraîcheur, fusionnant fitness, plaisir et bienfaits thérapeutiques. En tant que coach sportif expérimenté, Sébastien infuse chaque mouvement d'une énergie communicative, vous guidant vers une silhouette affinée et un esprit serein. Avec un coaching de groupe dynamique ou des séances personnalisées, l’aquagym devient votre rendez-vous incontournable pour un conditionnement physique jubilatoire et une remise en forme tonifiante.",
         "periods": [

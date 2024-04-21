@@ -6,7 +6,7 @@ import {Textarea} from "@/components/ui/textarea"
 import {Button} from "@/components/ui/button";
 import emailjs from '@emailjs/browser';
 
-export function Contact() {
+export function ContactForm() {
 
     const form = useRef<HTMLFormElement>(null);
     const [success, setSuccess] = useState(false);
