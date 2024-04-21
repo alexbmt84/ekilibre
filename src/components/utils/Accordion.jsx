@@ -80,7 +80,16 @@ export function AccordionCustomIcon(props) {
 
                 <AccordionBody>
                     <p className={"text-lg font-bold text-black mt-5"}>
-                        {props.accPeriodBody}
+                        {props.accPeriodBody[0]}
+                    </p>
+                    <p className={"text-lg font-base text-black"}>
+                        {props.accPeriodBody[1]}
+                    </p>
+                    <p className={"text-lg font-bold text-black mt-5"}>
+                        {props.accPeriodBody[2]}
+                    </p>
+                    <p className={"text-lg font-base text-black"}>
+                        {props.accPeriodBody[3]}
                     </p>
                 </AccordionBody>
 

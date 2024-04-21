@@ -24,9 +24,9 @@ export function Activities() {
 
                     </p>
                     <p className={"max-w-[700px] text-gray-500 mx-auto text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
-                        Que vous soyez situé à Malaucène, à Bédoin ou près du Mont Ventoux,
+                        Que vous résidiez à Malaucène, Bédoin ou près du Mont Ventoux,
                         <span className={"font-bold text-[#5DB3B6]"}> Sébastien Jacquemin</span>,
-                        votre coach sportif dédié, vous ouvre les portes d&apos;une expérience transformatrice.
+                        votre coach sportif dévoué, vous invite à découvrir un programme sur mesure conçu spécialement pour vous.
                     </p>
                     <p className={"max-w-[700px] text-gray-500 mx-auto text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                         Des leçons de natation qui éveillent l&apos;aquaphobe au massage bien-être sculptant
@@ -41,10 +41,9 @@ export function Activities() {
                         className={"font-bold text-[#5DB3B6]"}>?</span>
                     </p>
                     <p className={"max-w-[700px] mx-auto text-gray-500 text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
-                        Laissez <span className={"font-bold text-[#5DB3B6]"}>Ekilibre</span> être le catalyseur de votre
-                        voyage vers la meilleure version de
-                        vous-même —
-                        physiquement et spirituellement.</p>
+                        Laissez <span className={"font-bold text-[#5DB3B6]"}>Ekilibre</span>
+                        vous guider dans votre parcours vers une meilleure forme physique avec un programme personnalisé
+                        qui répond à vos besoins personnels.</p>
 
                     <div className={"flex flex-wrap items-center justify-center w-full gap-10"}>
                         {data.map((product: {
