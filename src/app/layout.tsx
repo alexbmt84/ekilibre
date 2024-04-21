@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     publisher: "Vercel",
     robots: "index, follow",
     alternates: {canonical: "https://ekilibre84.fr"},
-    icons: "https://ekilibre84.fr/icon.png",
+    icons: "https://ekilibre84.fr/img/icon.png",
     manifest: "https://ekilibre84.fr/manifest.json",
     openGraph: {
         type: "website",
@@ -85,7 +85,7 @@ export const metadata: Metadata = {
         siteName: "Ekilibre84",
         images: [
             {
-                url: "https://ekilibre84.fr/icon.png",
+                url: "https://ekilibre84.fr/img/icon.png",
             }
         ],
     },

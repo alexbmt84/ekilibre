@@ -1,10 +1,10 @@
 'use client';
 
-import {NavbarSimple} from "@/components/component/navbar";
-import BMICalculatorComponent from "../components/component/bmiCalculator";
-import { CarouselCustomArrows } from "@/components/component/carousel"
-import {Footer} from "@/components/component/footer";
-import {CardDefault} from "@/components/component/activitie";
-import {AccordionCustomIcon} from "@/components/component/accordion";
+import {NavbarSimple} from "@/components/component/Navbar";
+import BMICalculatorComponent from "../components/component/BmiCalculator";
+import { CarouselCustomArrows } from "@/components/component/Carousel"
+import {Footer} from "@/components/component/Footer";
+import {CardDefault} from "@/components/component/CardActivity";
+import {AccordionCustomIcon} from "@/components/component/Accordion";
 
 export { NavbarSimple, BMICalculatorComponent, CarouselCustomArrows, Footer, CardDefault, AccordionCustomIcon };

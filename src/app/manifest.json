@@ -7,7 +7,7 @@
   "description": "Ekilibre recouvre la pratique d'activités physiques, sportives et bien être qui contribuent à la santé physique, psychologique et sociale de l'individu. Sébastien Jacquemin, Coach sportif, maître nageur sur Malaucène, Bédoin, situé au pied du Mont Ventoux.",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "/img/logo.png",
       "sizes": "555x555",
       "type": "image/png",
       "purpose": "maskable"
