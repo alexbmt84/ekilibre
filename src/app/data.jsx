@@ -48,7 +48,7 @@ export const data = [
         "description": "Massage sportif / Massage bien être / Massage minceur / Massage femme enceinte",
         "image": "/img/massages.webp",
         "button": "En savoir plus",
-        "descriptionCard": "Entrez dans le cercle restreint du bien-être avec les massages signature de Sébastien Jacquemin, fondateur d'Ekilibre 84. Spécialiste des messages sportifs Ici, les massages minceur se transforment en art, et le massage bien-être se fait thérapeutique sous les mains expertes de votre maître masseur. À Malaucène, ou chez vous, les techniques raffinées de Sébastien favorisent une détente profonde et une remise en forme spirituelle. Chaque geste est une promesse de tranquillité, une évasion du quotidien et un pas vers l'harmonie.",
+        "descriptionCard": "Spécialiste des massages sportifs, minceur et thérapeutiques. À Malaucène, ou chez vous, les techniques de Sébastien favorisent une détente profonde et une remise en forme spirituelle. Chaque prestation est une promesse de tranquillité, une évasion du quotidien.",
         "periods": ["Toute l'année"],
         "prices": [["(À venir)"], []]
     },
