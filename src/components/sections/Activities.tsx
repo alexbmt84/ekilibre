@@ -41,8 +41,8 @@ export function Activities() {
                         className={"font-bold text-[#5DB3B6]"}>?</span>
                     </p>
                     <p className={"max-w-[700px] mx-auto text-gray-500 text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
-                        Laissez <span className={"font-bold text-[#5DB3B6]"}>Ekilibre</span>
-                        vous guider dans votre parcours vers une meilleure forme physique avec un programme personnalisé
+                        Laissez <span className={"font-bold text-[#5DB3B6]"}>Ekilibre </span>
+                        vous guider dans votre parcours vers une meilleure forme physique avec un programme 
                         qui répond à vos besoins personnels.</p>
 
                     <div className={"flex flex-wrap items-center justify-center w-full gap-10"}>
