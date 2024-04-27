@@ -4,7 +4,7 @@ export function FooterNav() {
     return (
         <nav
             className={
-                "sm:ml-auto " +
+                "mx-auto" +
                 "flex " +
                 "gap-4 " +
                 "sm:gap-6"

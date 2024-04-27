@@ -69,7 +69,6 @@ export const metadata: Metadata = {
     creator: "Alexis Beaumont",
     publisher: "Vercel",
     robots: "index, follow",
-    alternates: {canonical: "https://ekilibre84.fr"},
     icons: "https://ekilibre84.fr/img/icon.png",
     manifest: "https://ekilibre84.fr/manifest.json",
     openGraph: {
