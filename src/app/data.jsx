@@ -13,8 +13,8 @@ export const data = [
                 " 225€ le forfait de 10 seances."
             ],
             [
-                "17€ la seance de 30 minutes.",
-                " 150€ le forfait de 10 seances."
+                "18€ la seance de 30 minutes.",
+                " 160€ le forfait de 10 seances."
             ]
         ]
     },
@@ -24,7 +24,7 @@ export const data = [
         "description": "Cours d'aquagym",
         "image": "/img/testaqua.JPEG",
         "button": "En savoir plus",
-        "descriptionCard": "Élancez-vous dans une aventure revitalisante avec les sessions d'Aquagym Ekilibre, orchestrées par Sébastien Jacquemin. En plein cœur de Bédoin ou à domicile, ces cours aquatiques sont une oasis de fraîcheur, fusionnant fitness, plaisir et bienfaits thérapeutiques. En tant que coach sportif expérimenté, Sébastien effectue chaque mouvement avec une énergie communicative, vous guidant vers une silhouette affinée et un esprit serein. Avec un coaching de groupe dynamique ou des séances personnalisées, l’aquagym devient votre rendez-vous incontournable pour une remise en forme tonifiante.",
+        "descriptionCard": "Élancez-vous dans une aventure revitalisante avec les sessions d'Aquagym Ekilibre, orchestrées par Sébastien Jacquemin. En plein cœur de Bédoin ou à domicile, ces cours aquatiques sont une oasis de fraîcheur, fusionnant fitness, plaisir et bienfaits thérapeutiques. En tant que coach sportif expérimenté et avec une énergie communicative, Sébastien vous guidera vers une silhouette affinée et un esprit serein. Avec un coaching de groupe dynamique ou des séances personnalisées, l’aquagym devient votre rendez-vous incontournable pour une remise en forme tonifiante.",
         "periods": [
             "En Juin",
             "Le Mardi à 17h50 et le Samedi à 09h50",
@@ -36,7 +36,7 @@ export const data = [
                 "20€/personne, minimum 3 personnes. Seance de 1h."
             ],
             [
-                "12€/personne, 108€ les 10 séances. Les mardis soirs et samedis matins."
+                "12€/personne, 1 séance offerte toutes les 10 séances. Les mardis soirs et samedis matins."
             ]
         ],
 
@@ -50,7 +50,9 @@ export const data = [
         "button": "En savoir plus",
         "descriptionCard": "Spécialiste des massages sportifs, minceur et thérapeutiques. À Malaucène, ou chez vous, les techniques de Sébastien favorisent une détente profonde et une remise en forme spirituelle. Chaque prestation est une promesse de tranquillité, une évasion du quotidien.",
         "periods": ["Toute l'année"],
-        "prices": [["(À venir)"], []]
+        "prices": [
+            ["Individuel : 20€/heure, 35€/30 minutes.", "Groupe (à partir de 3 personnes) : 50€/heure, 25€/30 minutes."],[]
+        ]
     },
     {
         "id": 4,
@@ -58,8 +60,8 @@ export const data = [
         "description": "Coaching personnalisé",
         "image": "/img/remiseforme.JPEG",
         "button": "En savoir plus",
-        "descriptionCard": "Transformez votre vision du fitness avec un entraînement personnalisé à domicile signé Sébastien Jacquemin, le coach sportif qui redéfinit la préparation physique. Ekilibre, c’est votre sésame pour une remise en forme intégrale, alliant méthodes d'entraînement avant-gardistes et stratégies de coaching individualisé. Que ce soit pour une remise en forme personnelle, ou une session de préparation physique, Sébastien est le partenaire d'excellence pour sculpter votre corps et apaiser votre esprit. L'aventure commence ici, où chaque séance est une promesse de dépassement et d'équilibre.",
+        "descriptionCard": "Transformez votre vision de la pratique physique et sportive avec un entraînement personnalisé à domicile signé Sébastien Jacquemin. Les prestations de remise en forme personnalisées offrent des séances adaptées à tous les profils, allant des jeunes adultes aux seniors. Elles combinent des séances intenses pour renforcer les capacités physiques et des séances douces pour améliorer la souplesse et la récupération, garantissant un accompagnement sur mesure pour chaque besoin et niveau sportif. L'aventure commence ici, où chaque séance est une promesse de dépassement et d'équilibre.",
         "periods": ["Toute l'année"],
-        "prices": [["(À venir)"], []]
+        "prices": [["Tarifs sur devis uniquement. Possibilité de groupe, 5 personnes maximum."], []]
     }
 ]

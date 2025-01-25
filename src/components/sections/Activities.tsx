@@ -26,12 +26,11 @@ export function Activities() {
                     <p className={"max-w-[700px] text-gray-500 mx-auto text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                         Que vous résidiez à Malaucène, Bédoin ou près du Mont Ventoux,
                         <span className={"font-bold text-[#5DB3B6]"}> Sébastien Jacquemin</span>,
-                        votre coach sportif dévoué, vous invite à découvrir un programme sur mesure conçu spécialement pour vous.
+                        votre coach sportif, vous invite à découvrir un programme sur mesure conçu spécialement pour vous.
                     </p>
                     <p className={"max-w-[700px] text-gray-500 mx-auto text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
-                        Des leçons de natation qui éveillent l&apos;aquaphobe au massage bien-être sculptant
-                        votre silhouette,
-                        chaque session est une invitation à redécouvrir votre potentiel.
+                        Natation, aquagym, programme de remise en forme sur mesure, massages bien-être de récupération,
+                        accompagnement post rééducation : Chaque session est une invitation à redécouvrir et optimiser votre<span className={"font-bold text-[#5DB3B6]"}> potentiel.</span>
                     </p>
                     <p className={"max-w-[700px] text-gray-500 mx-auto text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                         <span className={"font-bold text-[#5DB3B6]"}>Prêt/es </span>
@@ -54,7 +53,7 @@ export function Activities() {
                             descriptionCard: string;
                             button: string;
                             periods: Array<string>;
-                            prices: Array<Array<Array<string>>> | Array<Array<string>>
+                            prices: Array<Array<Array<string>>> | Array<Array<string>>;
                         }) => (
                             <CardDefault key={product.id}
                                          cardImage={product.image}
