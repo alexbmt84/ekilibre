@@ -5,8 +5,8 @@ export const data = [
         "description": "Apprentissage de la natation / cours de perfectionnement / Aquaphobie",
         "image": "/img/natationgroup.jpg",
         "button": "En savoir plus",
-        "descriptionCard": "Ekilibre est le trait d'union entre vous et l'eau. Que vous cherchiez à apprivoisez les vagues avec des leçons sur mesure, l'éveil aquatique pour vos enfants ou une session de perfectionnement pour adultes. La promesse d'Ekilibre ? Une progression adaptée à chacun, chez vous, ou à la piscine de Bédoin située au pied du Mont Ventoux.",
-        "periods": ["De Juin à Septembre"],
+        "descriptionCard": "Ekilibre est le trait d'union entre vous et l'eau. Vous cherchez l'éveil aquatique pour vos enfants ? Une session de perfectionnement ou à apprivoiser vos peurs ? Ekilibre vous propose une progression adaptée à chacun, chez vous, ou à la piscine de Bédoin située au pied du Mont Ventoux.",
+        "periods": ["De Mai à Septembre"],
         "prices": [
             [
                 "25€ la seance de 30 minutes.",
@@ -24,7 +24,7 @@ export const data = [
         "description": "Cours d'aquagym",
         "image": "/img/testaqua.JPEG",
         "button": "En savoir plus",
-        "descriptionCard": "Élancez-vous dans une aventure revitalisante avec les sessions d'Aquagym Ekilibre, orchestrées par Sébastien Jacquemin. En plein cœur de Bédoin ou à domicile, ces cours aquatiques sont une oasis de fraîcheur, fusionnant fitness, plaisir et bienfaits thérapeutiques. En tant que coach sportif expérimenté et avec une énergie communicative, Sébastien vous guidera vers une silhouette affinée et un esprit serein. Avec un coaching de groupe dynamique ou des séances personnalisées, l’aquagym devient votre rendez-vous incontournable pour une remise en forme tonifiante.",
+        "descriptionCard": "Plongez dans une aventure revitalisante avec les sessions d'Aquagym Ekilibre. En plein cœur de Bédoin ou à domicile, ces cours aquatiques, fusionnent fitness, plaisir et bienfaits thérapeutiques. En tant que coach sportif expérimenté et avec une énergie communicative, Sébastien vous accompagne vers le bien-être physique et la sérénité. Avec un coaching de groupe dynamique ou des séances personnalisées, l’aquagym devient votre rendez-vous incontournable pour une remise en forme tonifiante.",
         "periods": [
             "En Juin",
             "Le Mardi à 17h50 et le Samedi à 09h50",
