@@ -5,8 +5,8 @@ export const data = [
         "description": "Apprentissage de la natation / cours de perfectionnement / Aquaphobie",
         "image": "/img/natationgroup.jpg",
         "button": "En savoir plus",
-        "descriptionCard": "Ekilibre est le trait d'union entre vous et l'eau. Que vous cherchiez à apprivoisez les vagues avec des leçons sur mesure, l'éveil aquatique pour vos enfants ou une session de perfectionnement pour adultes. La promesse d'Ekilibre ? Une progression adaptée à chacun, chez vous, ou à la piscine de Bédoin située au pied du Mont Ventoux.",
-        "periods": ["De Juin à Septembre"],
+        "descriptionCard": "Ekilibre est le trait d'union entre vous et l'eau. Vous cherchez l'éveil aquatique pour vos enfants ? Une session de perfectionnement ou à apprivoiser vos peurs ? Ekilibre vous propose une progression adaptée à chacun, chez vous, ou à la piscine de Bédoin située au pied du Mont Ventoux.",
+        "periods": ["De Mai à Septembre"],
         "prices": [
             [
                 "25€ la seance de 30 minutes.",
