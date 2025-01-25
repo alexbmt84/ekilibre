@@ -10,16 +10,19 @@ export function Home() {
 
                 <div className="space-y-2 text-center">
 
-                    <h1 className="uppercase text-white mt-20 mb-10 md:mb-5 md:mt-0 text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed">
-                        Ekilibre
-                    </h1>
+                    <Image src={"/img/logo.png"}
+                           alt={"wave"}
+                           width={400}
+                           height={400}
+                           className={"mx-auto"}
+                    />
 
                     <h2 className="max-w-[700px] mt-20 mb-10 md:mt-0 text-white text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed">
                         Sans plaisir, la pratique n&apos;est rien.
                     </h2>
 
                     <h3 className="max-w-[700px] py-10 text-justify text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 mx-auto">
-                        Fort d&apos;une expérience de 22 ans dans l&apos;animation et l&apos;éducation sportive,
+                        Fort d&apos;une expérience de 25 ans dans l&apos;animation et l&apos;éducation sportive,
                         Sébastien met sa passion, son enthousiasme et son énergie à votre service pour vous
                         accompagner dans
                         votre remise en forme et votre bien être, aussi bien physiquement que mentalement.
