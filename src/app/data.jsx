@@ -24,7 +24,7 @@ export const data = [
         "description": "Cours d'aquagym",
         "image": "/img/testaqua.JPEG",
         "button": "En savoir plus",
-        "descriptionCard": "Élancez-vous dans une aventure revitalisante avec les sessions d'Aquagym Ekilibre, orchestrées par Sébastien Jacquemin. En plein cœur de Bédoin ou à domicile, ces cours aquatiques sont une oasis de fraîcheur, fusionnant fitness, plaisir et bienfaits thérapeutiques. En tant que coach sportif expérimenté et avec une énergie communicative, Sébastien vous guidera vers une silhouette affinée et un esprit serein. Avec un coaching de groupe dynamique ou des séances personnalisées, l’aquagym devient votre rendez-vous incontournable pour une remise en forme tonifiante.",
+        "descriptionCard": "Plongez dans une aventure revitalisante avec les sessions d'Aquagym Ekilibre. En plein cœur de Bédoin ou à domicile, ces cours aquatiques, fusionnent fitness, plaisir et bienfaits thérapeutiques. En tant que coach sportif expérimenté et avec une énergie communicative, Sébastien vous accompagne vers le bien-être physique et la sérénité. Avec un coaching de groupe dynamique ou des séances personnalisées, l’aquagym devient votre rendez-vous incontournable pour une remise en forme tonifiante.",
         "periods": [
             "En Juin",
             "Le Mardi à 17h50 et le Samedi à 09h50",
