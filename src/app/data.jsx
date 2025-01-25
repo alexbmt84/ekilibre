@@ -51,7 +51,7 @@ export const data = [
         "descriptionCard": "Spécialiste des massages sportifs, minceur et thérapeutiques. À Malaucène, ou chez vous, les techniques de Sébastien favorisent une détente profonde et une remise en forme spirituelle. Chaque prestation est une promesse de tranquillité, une évasion du quotidien.",
         "periods": ["Toute l'année"],
         "prices": [
-            ["Individuel : 20€/heure, 35€/30 minutes.", "Groupe (à partir de 3 personnes) : 50€/heure, 25€/30 minutes."],[]
+            ["Individuel : 60€/heure, 35€/30 minutes.", "Groupe (à partir de 3 personnes) : 50€/heure, 30€/30 minutes."],[]
         ]
     },
     {
