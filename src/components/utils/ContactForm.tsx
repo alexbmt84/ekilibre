@@ -89,7 +89,7 @@ export function ContactForm() {
                     </h2>
 
                     <h3 className={"text-gray-500 dark:text-gray-400 text-center pt-5 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
-                        Laissez moi votre message et je reviendrai vers vous dès que possible.
+                        Laissez moi votre message et je reviendrai vers vous dès que possible ou contactez moi au 06 08 37 57 53
                     </h3>
 
                 </div>
