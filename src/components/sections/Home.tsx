@@ -10,12 +10,9 @@ export function Home() {
 
                 <div className="space-y-2 text-center">
 
-                    <Image src={"/img/logo.png"}
-                           alt={"wave"}
-                           width={400}
-                           height={400}
-                           className={"mx-auto"}
-                    />
+                    <h1 className="uppercase text-white mt-20 mb-10 md:mb-5 md:mt-0 text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed">
+                        Ekilibre
+                    </h1>
 
                     <h2 className="max-w-[700px] mt-20 mb-10 md:mt-0 text-white text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed">
                         Sans plaisir, la pratique n&apos;est rien.
