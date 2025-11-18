@@ -122,7 +122,7 @@ export function TrainingCourseCard({
             S&apos;inscrire à cette formation
           </Button>
         </ScrollLink>
-        
+
       </div>
     </div>
   )
