@@ -59,7 +59,7 @@ export function CarouselCustomArrows() {
             )}
         >
             <video controls
-                   autoPlay={true}
+                   autoPlay={false}
                    src={"/videos/ekilibre84.mp4"}
                    className={"h-full w-full object-contain"}
                    width={700}
