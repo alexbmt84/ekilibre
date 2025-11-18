@@ -32,7 +32,7 @@ export function Formations() {
 
                     </p>
 
-                    <p className={"max-w-[700px] text-gray-500 mx-auto pt-20 text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
+                    <p className={"max-w-[700px] text-gray-500 mx-auto text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                         La noyade d&apos;enfant survient en silence, <span
                         className={"font-bold text-[#5DB3B6]"}>en moins de 30 secondes, </span> 
                         souvent sous supervision d&apos;un adulte.
