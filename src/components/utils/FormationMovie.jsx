@@ -59,10 +59,8 @@ export function FormationMovie() {
             )}
         >
             <video controls
-                   muted
                    controlsList="nodownload"
                    autoPlay={false}
-                   preload="none"
                    playsInline
                    src={"/videos/formation.mp4"}
                    className={"h-full w-full object-contain"}
