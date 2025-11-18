@@ -27,6 +27,12 @@ export function Formations() {
                     <FormationMovie/>
 
                     <p className={"max-w-[700px] text-gray-500 mx-auto pt-20 text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
+                        <span className={"font-bold text-[#5DB3B6]"}>La première formation en France</span> dédiée aux parents pour prévenir les noyades et adopter les bons réflexes autour d&apos;une piscine.
+                        Programme conçu et animé par des formateurs <span className={"font-bold text-[#5DB3B6]"}>diplômés d&apos;État,</span> maîtres-nageurs sauveteurs et secouristes professionnels.
+
+                    </p>
+
+                    <p className={"max-w-[700px] text-gray-500 mx-auto pt-20 text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                         La noyade d&apos;enfant survient en silence, <span
                         className={"font-bold text-[#5DB3B6]"}>en moins de 30 secondes, </span> 
                         souvent sous supervision d&apos;un adulte.
