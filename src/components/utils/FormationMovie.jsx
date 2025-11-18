@@ -59,6 +59,7 @@ export function FormationMovie() {
             )}
         >
             <video controls
+                   muted
                    autoPlay={false}
                    preload="none"
                    playsInline
