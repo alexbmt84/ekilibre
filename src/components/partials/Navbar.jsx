@@ -126,6 +126,36 @@ function NavList({closeNav}) {
                 }
             >
 
+                <ScrollLink href={"#formations"}
+                            to={"formations"}
+                            smooth={true}
+                            duration={500}
+                            offset={-100}
+                            onClick={closeNav}
+                            className={
+                                "cursor-pointer " +
+                                "flex items-center " +
+                                "hover:text-[#5DB3B6] " +
+                                "transition-colors " +
+                                "text-white " +
+                                "font-bold"
+                            }
+                >
+                    Formations
+                </ScrollLink>
+
+            </Typography>
+
+            <Typography
+                as={"li"}
+                variant={"small"}
+                color={"blue-gray"}
+                className={
+                    "p-1 " +
+                    "font-medium"
+                }
+            >
+
                 <ScrollLink href={"#contact"}
                             to={"contact"}
                             smooth={true}
