@@ -60,7 +60,7 @@ export function TrainingCourseCard({
         <div className="grid grid-cols-2 gap-3 mb-6">
           <div className="flex items-center gap-2 bg-gray-300 rounded-lg p-3">
             <Clock className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-foreground">{duration}</span>
+            <span className="text-sm font-medium text-foreground text-left">{duration}</span>
           </div>
           <div className="flex items-center gap-2 bg-gray-300 rounded-lg p-3">
             <Users className="w-4 h-4 text-primary" />
@@ -93,7 +93,7 @@ export function TrainingCourseCard({
             Contenu inclus - Jour 1
           </h3>
          
-          <ul className="space-y-2">
+          <ul className="space-y-2 text-left">
             {include2days?.map((item, idx) => (
               <li key={idx} className="flex items-start gap-3">
                 <CheckCircle2 className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
@@ -106,7 +106,7 @@ export function TrainingCourseCard({
             <h3 className="text-sm font-bold text-foreground mb-3 mt-5 uppercase tracking-wider text-left">Contenu inclus - Jour 2</h3>
           )}
 
-          <ul className="space-y-2">
+          <ul className="space-y-2 text-left">
             {includes.map((item, idx) => (
               <li key={idx} className="flex items-start gap-3">
                 <CheckCircle2 className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
