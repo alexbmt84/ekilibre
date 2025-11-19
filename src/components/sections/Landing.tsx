@@ -4,7 +4,6 @@ import {
     Images,
     Activities,
     Contact,
-    Bmi,
     Formations
 } from "@/app/provider";
 
@@ -20,7 +19,6 @@ export function Landing() {
                 <Activities/>
                 <Formations/>
                 <Contact/>
-                <Bmi/>
             </main>
         </div>
     )

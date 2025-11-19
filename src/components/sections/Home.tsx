@@ -14,8 +14,8 @@ export function Home() {
                         Ekilibre
                     </h1>
 
-                    <h2 className="max-w-[700px] mt-20 mb-10 md:mt-0 text-white text-4xl font-bold tracking-tighter sm:text-6xl/relaxed xl:text-7xl/relaxed">
-                        Sans plaisir, la pratique n&apos;est rien.
+                    <h2 className="max-w-[700px] mt-20 mb-10 md:mt-0 text-white text-2xl font-bold tracking-tighter sm:text-4xl/relaxed xl:text-5xl/relaxed">
+                        L&apos;ekilibre, c&apos;est ta signature.
                     </h2>
 
                     <h3 className="max-w-[700px] py-10 text-justify text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 mx-auto">

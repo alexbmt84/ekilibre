@@ -5,7 +5,7 @@ export function CourseGrid() {
     <div className="max-w-[700px] mx-auto text-white">
       <TrainingCourseCard
         level="NIVEAU 1"
-        title="Formation Parents Piscine"
+        title="Formation de l'Académie Ekilibre Sécurité"
         duration="1 jour - 4h30"
         description="Prévenir, surveiller et réagir efficacement autour d'une piscine"
         pricePerPerson={85}
@@ -14,6 +14,7 @@ export function CourseGrid() {
           { participants: '7-8', price: '70€', discountHost: '(Hôte -50% à 7 pers / gratuit à 8 pers)' },
           { participants: '9-15', price: '65€', discountHost: '(Hôte gratuit)' },
         ]}
+        include2days={null}
         includes={[
           'Comprendre la réalité des noyades',
           'Gestes adaptés piscine (GQS - 2h)',
@@ -21,15 +22,15 @@ export function CourseGrid() {
           'Surveillance active',
           'Protocole Ekilibre de prévention',
           'Exercices pratiques au bord du bassin',
-          'Certification Ekilibre Parents Piscine',
+          'Certification de l\'Académie Ekilibre Sécurité',
         ]}
-        certification="Certificat Ekilibre Parents Piscine"
+        certification="Certificat de l'Académie Ekilibre Sécurité"
         certificationType="standard"
       />
 
       <TrainingCourseCard
         level="NIVEAU 2"
-        title="Option PSC1"
+        title="Formation Complète : Sécurité Piscine + PSC1"
         duration="1 jour supplémentaire - 7h"
         description="Prévention et Secours Civiques niveau 1"
         pricePerPerson={90}
@@ -42,6 +43,15 @@ export function CourseGrid() {
           'Gestes de secours tous contextes',
           'Plus complet que GQS',
           'Reconnaissance nationale',
+        ]}
+        include2days={[
+          'Comprendre la réalité des noyades',
+          'Gestes adaptés piscine (GQS - 2h)',
+          'Analyse vidéo & décryptage',
+          'Surveillance active',
+          'Protocole Ekilibre de prévention',
+          'Exercices pratiques au bord du bassin',
+          'Certification de l\'Académie Ekilibre Sécurité',
         ]}
         certification="Diplôme PSC1 officiel"
         certificationType="official"

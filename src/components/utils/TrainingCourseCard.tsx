@@ -18,7 +18,8 @@ interface TrainingCourseCardProps {
   description: string
   pricePerPerson: number
   pricingTiers: PricingTier[]
-  includes: string[]
+  includes: string[],
+  include2days: string[] | null;
   certification: string
   certificationType: 'standard' | 'official',
 }
@@ -31,6 +32,7 @@ export function TrainingCourseCard({
   pricePerPerson,
   pricingTiers,
   includes,
+  include2days,
   certification,
   certificationType,
 }: TrainingCourseCardProps) {
@@ -86,7 +88,24 @@ export function TrainingCourseCard({
 
         {/* Includes section */}
         <div className={`mb-6`}>
-          <h3 className="text-sm font-bold text-foreground mb-3 uppercase tracking-wider text-left">Contenu inclus</h3>
+      
+          <h3 className="text-sm font-bold text-foreground mb-3 uppercase tracking-wider text-left">
+            Contenu inclus - Jour 1
+          </h3>
+         
+          <ul className="space-y-2">
+            {include2days?.map((item, idx) => (
+              <li key={idx} className="flex items-start gap-3">
+                <CheckCircle2 className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
+                <span className="text-sm text-foreground">{item}</span>
+              </li>
+            ))}
+          </ul>
+
+          {include2days && (
+            <h3 className="text-sm font-bold text-foreground mb-3 mt-5 uppercase tracking-wider text-left">Contenu inclus - Jour 2</h3>
+          )}
+
           <ul className="space-y-2">
             {includes.map((item, idx) => (
               <li key={idx} className="flex items-start gap-3">
@@ -103,7 +122,16 @@ export function TrainingCourseCard({
             <Award className={`w-5 h-5 flex-shrink-0 ${isOfficial ? 'text-accent' : 'text-primary'}`} />
             <div>
               <p className="text-xs font-bold text-primary uppercase tracking-wider mb-1">Certification</p>
-              <p className="font-medium text-foreground text-sm">{certification}</p>
+
+              {include2days ? (
+                <div>
+                <p className="font-medium text-foreground text-sm">Certificat de l&apos;Académie Ekilibre Sécurité</p>
+                <p className="font-medium text-foreground text-sm">{certification}</p>
+                </div>
+              ) : (
+                <p className="font-medium text-foreground text-sm">{certification}</p>
+              )}
+
             </div>
           </div>
         </div>

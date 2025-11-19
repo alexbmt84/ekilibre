@@ -11,7 +11,7 @@ export function FooterNav() {
             }
         >
 
-            <Link
+            {/* <Link
                 href={"#"}
                 className={
                     "text-xs " +
@@ -33,7 +33,7 @@ export function FooterNav() {
                 }
             >
                 Confidentialité
-            </Link>
+            </Link> */}
 
         </nav>
     )
