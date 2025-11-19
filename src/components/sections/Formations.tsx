@@ -17,7 +17,7 @@ export function Formations() {
                 <div className="space-y-3 w-full">
 
                     <h2 className="pt-12 uppercase text-3xl font-bold text-white tracking-tighter md:text-5xl/tight mb-3">
-                        Académie Ekilibre Sécurité
+                        Académie Ekilibre Sécurité Piscine
                     </h2>
 
                     <h3 className="pt-16 uppercase text-2xl font-bold text-gray-500 tracking-tighter md:text-4xl/tight mb-3 pb-16">
@@ -49,7 +49,7 @@ export function Formations() {
 
                     <p className={"max-w-[700px] mx-auto text-gray-500 text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
                         Les formations 
-                        <span className={"font-bold text-[#5DB3B6]"}> de l&apos;Académie Ekilibre Sécurité  </span>se déroulent où vous le souhaitez : à domicile dans votre propre piscine, chez un proche, dans un lieu privé équipé ou sur l&apos;un de nos sites partenaires, toujours précédées d&apos;une checklist de sécurité.
+                        <span className={"font-bold text-[#5DB3B6]"}> de l&apos;Académie Ekilibre Sécurité Piscine  </span>se déroulent où vous le souhaitez : à domicile dans votre propre piscine, chez un proche, dans un lieu privé équipé ou sur l&apos;un de nos sites partenaires, toujours précédées d&apos;une checklist de sécurité.
                     </p>
 
                     <p className={"max-w-[700px] mx-auto text-gray-500 text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
@@ -57,7 +57,7 @@ export function Formations() {
                     </p>
 
                     <p className={"max-w-[700px] mx-auto text-gray-500 text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
-                        À l&apos;issue de la session, vous recevez un certificat <span className={"font-bold text-[#5DB3B6]"}>de l&apos;Académie Ekilibre Sécurité</span>, un protocole familial personnalisé, la fiche “10 réflexes sécurité piscine”, ainsi que l&apos;ensemble des supports pédagogiques. Une option complémentaire permet également d&apos;obtenir le diplôme <span className={"font-bold text-[#5DB3B6]"}>PSC1</span>.
+                        À l&apos;issue de la session, vous recevez un certificat <span className={"font-bold text-[#5DB3B6]"}>de l&apos;Académie Ekilibre Sécurité Piscine</span>, un protocole familial personnalisé, la fiche “10 réflexes sécurité piscine”, ainsi que l&apos;ensemble des supports pédagogiques. Une option complémentaire permet également d&apos;obtenir le diplôme <span className={"font-bold text-[#5DB3B6]"}>PSC1</span>.
                     </p>
 
                     <CourseGrid />

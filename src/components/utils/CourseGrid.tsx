@@ -5,7 +5,7 @@ export function CourseGrid() {
     <div className="max-w-[700px] mx-auto text-white">
       <TrainingCourseCard
         level="NIVEAU 1"
-        title="Formation de l'Académie Ekilibre Sécurité"
+        title="Formation de l'Académie Ekilibre Sécurité Piscine"
         duration="1 jour - 4h30"
         description="Prévenir, surveiller et réagir efficacement autour d'une piscine"
         pricePerPerson={85}
@@ -22,9 +22,9 @@ export function CourseGrid() {
           'Surveillance active',
           'Protocole Ekilibre de prévention',
           'Exercices pratiques au bord du bassin',
-          'Certification de l\'Académie Ekilibre Sécurité',
+          'Certification de l\'Académie Ekilibre Sécurité Piscine',
         ]}
-        certification="Certificat de l'Académie Ekilibre Sécurité"
+        certification="Certificat de l'Académie Ekilibre Sécurité Piscine"
         certificationType="standard"
       />
 
@@ -35,7 +35,7 @@ export function CourseGrid() {
         description="Prévention et Secours Civiques niveau 1"
         pricePerPerson={90}
         pricingTiers={[
-          { participants: 'À partir de 6', price: '90€', discountHost: '' },
+          { participants: 'À partir de 6', price: 'Tarif niveau 1 + 90€', discountHost: '' },
         ]}
         includes={[
           'Certification officielle PSC1',
@@ -51,7 +51,7 @@ export function CourseGrid() {
           'Surveillance active',
           'Protocole Ekilibre de prévention',
           'Exercices pratiques au bord du bassin',
-          'Certification de l\'Académie Ekilibre Sécurité',
+          'Certification de l\'Académie Ekilibre Sécurité Piscine',
         ]}
         certification="Diplôme PSC1 officiel"
         certificationType="official"

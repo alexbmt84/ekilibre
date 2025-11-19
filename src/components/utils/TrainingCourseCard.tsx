@@ -80,7 +80,7 @@ export function TrainingCourseCard({
                     <p className="text-xs text-muted-foreground text-gray-700">{tier.discountHost}</p>
                   )}
                 </div>
-                <p className="font-bold text-primary text-lg">{tier.price}</p>
+                <p className="font-bold text-primary text-md">{tier.price}</p>
               </div>
             ))}
           </div>
@@ -125,7 +125,7 @@ export function TrainingCourseCard({
 
               {include2days ? (
                 <div>
-                <p className="font-medium text-foreground text-sm">Certificat de l&apos;Académie Ekilibre Sécurité</p>
+                <p className="font-medium text-foreground text-sm">Certificat de l&apos;Académie Ekilibre Sécurité Piscine</p>
                 <p className="font-medium text-foreground text-sm">{certification}</p>
                 </div>
               ) : (

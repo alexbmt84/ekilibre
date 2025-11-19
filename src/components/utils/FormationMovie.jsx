@@ -4,7 +4,7 @@ import Image from "next/image";
 export function FormationMovie() {
     return (
         <Carousel
-            className="rounded-xl h-[350px] w-[100%] mx-auto border-8 border-[#5DB3B6] bg-black"
+            className="rounded-xl h-[350px] md:w-[100%] lg:w-[85%] mx-auto border-8 border-[#5DB3B6] bg-black"
             prevArrow={({handlePrev}) => (
                 <IconButton
                     variant="text"
