@@ -75,25 +75,36 @@ export function CarouselCustomArrows() {
 
             <Image
                 src={"/img/img2.webp"}
+                alt={"image1"}
+                className={"h-full w-full object-cover border border-[#5DB3B6]"}
+                width={700}
+                height={700}
+            />
+
+            <Image
+                src={"/img/coaching_personnalise.webp"}
                 alt={"image2"}
                 className={"h-full w-full object-cover border border-[#5DB3B6]"}
                 width={700}
                 height={700}
             />
+
             <Image
                 src={"/img/sebao.webp"}
-                alt={"image2"}
+                alt={"image3"}
                 className={"h-full w-full object-cover border border-[#5DB3B6]"}
                 width={700}
                 height={700}
             />
+
             <Image
                 src={"/img/massages.webp"}
-                alt={"image3"}
+                alt={"image4"}
                 className={"h-full w-full object-cover"}
                 width={700}
                 height={700}
             />
+
         </Carousel>
     );
 }
