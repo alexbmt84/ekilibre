@@ -57,7 +57,7 @@ export function Formations() {
                     </p>
 
                     <p className={"max-w-[700px] mx-auto text-gray-500 text-justify tracking-wide font-body md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"}>
-                        À l&apos;issue de la session, vous recevez un certificat <span className={"font-bold text-[#5DB3B6]"}>de l&apos;Académie Ekilibre Sécurité Piscine</span>, un protocole familial personnalisé, la fiche “10 réflexes sécurité piscine”, ainsi que l&apos;ensemble des supports pédagogiques. Une option complémentaire permet également d&apos;obtenir le diplôme <span className={"font-bold text-[#5DB3B6]"}>PSC1</span>.
+                        À l&apos;issue de la session, vous recevez un certificat <span className={"font-bold text-[#5DB3B6]"}>de l&apos;Académie Ekilibre Sécurité Piscine</span>, un protocole familial personnalisé, la fiche “10 réflexes sécurité piscine”, ainsi que l&apos;ensemble des supports pédagogiques. Une option complémentaire permet également d&apos;obtenir le diplôme <span className={"font-bold text-[#5DB3B6]"}>PSC1</span> (Premiers secours citoyen niveau 1).
                     </p>
 
                     <CourseGrid />

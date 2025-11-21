@@ -10,9 +10,9 @@ export function CourseGrid() {
         description="Prévenir, surveiller et réagir efficacement autour d'une piscine"
         pricePerPerson={85}
         pricingTiers={[
-          { participants: '4-6', price: '85€', discountHost: '(Hôte -50%)' },
-          { participants: '7-8', price: '70€', discountHost: '(Hôte -50% à 7 pers / gratuit à 8 pers)' },
-          { participants: '9-15', price: '65€', discountHost: '(Hôte gratuit)' },
+          { participants: '4-6', price: '85€/pers', discountHost: '(Hôte -50%)' },
+          { participants: '7-8', price: '70€/pers', discountHost: '(Hôte -50% à 7 pers / gratuit à 8 pers)' },
+          { participants: '9-15', price: '65€/pers', discountHost: '(Hôte gratuit)' },
         ]}
         include2days={null}
         includes={[
@@ -35,7 +35,7 @@ export function CourseGrid() {
         description="Prévention et Secours Civiques niveau 1"
         pricePerPerson={90}
         pricingTiers={[
-          { participants: 'À partir de 6', price: 'Tarif niveau 1 + 90€', discountHost: '' },
+          { participants: 'À partir de 6', price: 'Tarif niveau 1 + 90€/pers', discountHost: '' },
         ]}
         includes={[
           'Certification officielle PSC1',
