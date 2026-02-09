@@ -30,7 +30,7 @@ export function Home() {
                 <div className={"py-5"}>
 
                     <Image fetchPriority={"high"}
-                           src={"/img/compressedImg1.webp"}
+                           src={"/img/ekilibre.webp"}
                            alt={"image1"}
                            width={700}
                            height={700}
