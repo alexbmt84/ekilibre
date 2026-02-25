@@ -119,8 +119,12 @@ export function AccordionCustomIcon(props) {
                                 <h5 className={"font-bold text-black text-lg mt-5"}>
                                     À domicile
                                 </h5>
-                                <p className={"font-normal text-lg"}>{props.accPricesDomicile[0]}</p>
-                                <p className={"font-normal text-lg mt-0 pt-0"}>{props.accPricesDomicile[1]}</p>
+                                <p className={"font-semibold mt-2 text-lg"}>{props.accPricesDomicile[0]}</p>
+                                <p className={"font-normal text-lg"}>{props.accPricesDomicile[1]}</p>
+                                <p className={"font-normal text-lg mt-0 pt-0"}>{props.accPricesDomicile[2]}</p>
+                                <p className={"font-semibold mt-2 text-lg mt-0 pt-0"}>{props.accPricesDomicile[3]}</p>
+                                <p className={"font-normal text-lg mt-0 pt-0"}>{props.accPricesDomicile[4]}</p>
+                                <p className={"font-normal text-lg mt-0 pt-0"}>{props.accPricesDomicile[5]}</p>
                             </div> :
                             document.innerHtml = <p className={"text-lg"}>{props.accPricesDomicile}</p>
                     }
@@ -136,8 +140,8 @@ export function AccordionCustomIcon(props) {
                                 >
                                     À la piscine de Bédoin
                                 </h5>
-                                <p className={"text-lg"}>{props.accPricesPool[0]}</p>
-                                <p className={"text-lg"}>{props.accPricesPool[1]}</p>
+                                <p className={"text-lg font-normal"}>{props.accPricesPool[0]}</p>
+                                <p className={"text-lg font-normal"}>{props.accPricesPool[1]}</p>
                             </div> :
                             document.innerHtml = <p className={"text-lg"}>{props.accPricesPool}</p>
                     }

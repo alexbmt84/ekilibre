@@ -9,12 +9,16 @@ export const data = [
         "periods": ["De Mai à Septembre"],
         "prices": [
             [
-                "25€ la seance de 30 minutes.",
-                " 225€ le forfait de 10 seances."
+                "Individuel :",
+                "30€ la séance de 35 à 40 minutes.",
+                "270€ le forfait de 10 séances.",
+                "À partir de 2 personnes :",
+                "25€ la séance par personne.",
+                "225€ le forfait de 10 séances."
             ],
             [
-                "18€ la seance de 30 minutes.",
-                " 160€ le forfait de 10 seances."
+                "20€ la séance de 30 à 40 minutes.",
+                "180€ le forfait de 10 séances."
             ]
         ]
     },
