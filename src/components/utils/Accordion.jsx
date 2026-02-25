@@ -119,10 +119,10 @@ export function AccordionCustomIcon(props) {
                                 <h5 className={"font-bold text-black text-lg mt-5"}>
                                     À domicile
                                 </h5>
-                                <p className={"font-semibold mt-2 text-lg"}>{props.accPricesDomicile[0]}</p>
+                                <p className={"font-normal text-lg"}>{props.accPricesDomicile[0]}</p>
                                 <p className={"font-normal text-lg"}>{props.accPricesDomicile[1]}</p>
                                 <p className={"font-normal text-lg mt-0 pt-0"}>{props.accPricesDomicile[2]}</p>
-                                <p className={"font-semibold mt-2 text-lg mt-0 pt-0"}>{props.accPricesDomicile[3]}</p>
+                                <p className={"font-normal text-lg mt-0 pt-0"}>{props.accPricesDomicile[3]}</p>
                                 <p className={"font-normal text-lg mt-0 pt-0"}>{props.accPricesDomicile[4]}</p>
                                 <p className={"font-normal text-lg mt-0 pt-0"}>{props.accPricesDomicile[5]}</p>
                             </div> :

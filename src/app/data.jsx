@@ -67,5 +67,5 @@ export const data = [
         "descriptionCard": "Transformez votre vision de la pratique physique et sportive avec un entraînement personnalisé à domicile signé Sébastien Jacquemin. Les prestations de remise en forme personnalisées offrent des séances adaptées à tous les profils, allant des jeunes adultes aux seniors. Elles combinent des séances intenses pour renforcer les capacités physiques et des séances douces pour améliorer la souplesse et la récupération, garantissant un accompagnement sur mesure pour chaque besoin et niveau sportif. L'aventure commence ici, où chaque séance est une promesse de dépassement et d'équilibre.",
         "periods": ["Toute l'année"],
         "prices": [["Tarifs sur devis uniquement. Possibilité de groupe, 5 personnes maximum."], []]
-    }
+    },
 ]
