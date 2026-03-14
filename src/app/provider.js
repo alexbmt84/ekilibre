@@ -12,9 +12,11 @@ import {About} from "@/components/sections/About";
 import {Images} from "@/components/sections/Images";
 import {Contact} from "@/components/sections/Contact";
 import {Activities} from "@/components/sections/Activities";
+import {Events} from "@/components/sections/Events";
 import {Bmi} from "@/components/sections/Bmi";
 import {Formations} from "@/components/sections/Formations";
 import {CourseGrid} from "@/components/utils/CourseGrid";
+import {EventGrid} from "@/components/utils/EventGrid";
 import {TrainingCourseCard} from "@/components/utils/TrainingCourseCard";
 
 export {
@@ -29,9 +31,11 @@ export {
     Images,
     Contact,
     Activities,
+    Events,
     Bmi,
     Formations,
     CourseGrid,
+    EventGrid,
     TrainingCourseCard,
     FormationMovie
 };
