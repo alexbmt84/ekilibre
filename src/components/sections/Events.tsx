@@ -54,6 +54,18 @@ export function Events() {
 
                     <EventGrid/>
 
+                    <div className="flex justify-center pt-20">
+                      <Image
+                        fetchPriority="high"
+                        src="/img/moon_water.gif"
+                        alt="Animation eau"
+                        width={400}
+                        height={400}
+                        className="mx-auto rounded"
+                        priority
+                      />
+                    </div>
+
                 </div>
 
             </div>

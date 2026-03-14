@@ -1,5 +1,6 @@
 import {data} from "@/app/data";
 import {CardDefault} from "@/components/utils/CardActivity";
+import Image from "next/image";
 
 export function Activities() {
 
@@ -68,6 +69,18 @@ export function Activities() {
                         ))}
                     </div>
 
+                <div className="flex justify-center pt-20">
+                                      <Image
+                                        fetchPriority="high"
+                                        src="/img/drop.gif"
+                                        alt="Animation eau"
+                                        width={400}
+                                        height={400}
+                                        className="mx-auto rounded"
+                                        priority
+                                      />
+                                    </div>
+                
                 </div>
 
             </div>
