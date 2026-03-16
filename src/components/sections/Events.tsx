@@ -63,6 +63,7 @@ export function Events() {
                         height={400}
                         className="mx-auto rounded"
                         priority
+                        unoptimized
                       />
                     </div>
 
